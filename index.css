@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+div img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin-top: 20px;
+}
+
+div p {
+  margin-top: 10px;
+  font-size: 18px;
+}
