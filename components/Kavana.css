@@ -1,0 +1,62 @@
+/* Kavana.css */
+.kavana-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: "Noto Sans Kannada", sans-serif;
+}
+
+.kavana-title {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #5a5a5a;
+}
+
+.poem-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.poem-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #3e3e3e;
+}
+
+.poem-content {
+  font-size: 18px;
+  line-height: 1.6;
+  white-space: pre-line; /* Preserve line breaks */
+  color: #333;
+}
+
+.poem-navigation {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}
+
+.nav-button:focus {
+  outline: none;
+}

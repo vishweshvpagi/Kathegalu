@@ -1,0 +1,75 @@
+/* Home.css */
+.home-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.welcome-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.view-all-button {
+  background-color: #ff6b6b;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.view-all-button:hover {
+  background-color: #ff3b3b;
+}
+
+.preview-section {
+  margin-top: 40px;
+}
+
+.preview-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.preview-card {
+  text-align: center;
+  background-color: #f4f4f9;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.preview-card:hover {
+  transform: translateY(-5px);
+}
+
+.preview-cover {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.preview-title {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.preview-author {
+  font-size: 16px;
+  color: #555;
+}
