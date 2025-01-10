@@ -58,7 +58,7 @@ Ensure you have the following installed:
 ### Steps
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/kathegalu.git
+   git clone https://github.com/vishweshvpagi/kathegalu.git
    cd kathegalu
    ```
 
